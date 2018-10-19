@@ -424,6 +424,10 @@ public class BilibiliLoginUtil {
         actions.release(element).perform();
     }
 
+    /**
+     * 该元素的点坐标
+     * @param element
+     */
     private static void printLocation(WebElement element) {
         org.openqa.selenium.Point point = element.getLocation();
         System.out.println(point.toString());
